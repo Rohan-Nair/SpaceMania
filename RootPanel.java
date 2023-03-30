@@ -127,7 +127,6 @@ public class RootPanel extends JPanel implements Runnable {
         if (coins.s.intersects(playerRocket.r)) {
             score.playerScore++;
             newCoins();
-            System.out.println(score.playerScore);
         }
 
         if (coins.yPosition >= GAME_HEIGHT) {
